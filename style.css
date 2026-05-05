@@ -134,8 +134,11 @@ a {
   border-radius: 6px;
 }
 
-.project h3 {
-  margin-top: 0;
+.project-status {
+  font-size: 14px;
+  color: #4b5563;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 .timeline-item {
