@@ -29,123 +29,165 @@
 
   <main>
     <section class="hero-section">
-      <div class="hero-text">
-        <h2>About Me</h2>
-        <p>
-          I am a PhD candidate in Computer Science at Victoria University of Wellington,
-          New Zealand. My research focuses on automated algorithm design for large-scale
-          vehicle routing problems, with particular interests in evolutionary computation,
-          genetic programming, guided local search, curriculum learning, and lifelong
-          learning for neural combinatorial optimization solvers.
-        </p>
+  <div class="hero-text">
+    <h2>About Me</h2>
+    <p>
+      I am a PhD candidate in Computer Science at Victoria University of Wellington,
+      New Zealand. My research focuses on automated algorithm design for large-scale
+      vehicle routing problems, with particular interests in genetic programming,
+      guided local search, curriculum learning, instance space analysis, behaviour
+      niching, and surrogate-assisted evolutionary computation.
+    </p>
 
-        <p>
-          My work aims to develop adaptive and learning-based optimization methods that
-          improve the efficiency, scalability, and generalization ability of routing
-          solvers under complex and dynamically changing problem settings.
-        </p>
+    <p>
+      My PhD research investigates how learning-based and evolutionary approaches can
+      improve the design, training efficiency, robustness, and scalability of heuristic
+      search methods for large-scale vehicle routing problems.
+    </p>
 
-        <div class="quick-links">
-          <a href="https://scholar.google.com/citations?hl=zh-CN&user=zaLjW3wAAAAJ" target="_blank">Google Scholar</a>
-          <a href="https://ecs.wgtn.ac.nz/Main/GradSainingLiu" target="_blank">University Profile</a>
-          <a href="https://github.com/Itissn" target="_blank">GitHub</a>
-          <a href="cv.html">CV</a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Research Interests</h2>
-
-      <div class="card-grid">
-        <div class="card">
-          <h3>Large-Scale Vehicle Routing Problems</h3>
-          <p>
-            Scalable optimization methods for routing problems involving large numbers
-            of customers, complex constraints, and challenging search spaces.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Automated Algorithm Design</h3>
-          <p>
-            Automatic design and adaptation of algorithmic components based on
-            problem-solving experience and search feedback.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Genetic Programming Guided Local Search</h3>
-          <p>
-            Genetic programming methods for evolving utility functions that guide
-            local search for large-scale vehicle routing problems.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Curriculum Learning</h3>
-          <p>
-            Training strategies that control the order, difficulty, and diversity of
-            routing instances to improve solver learning efficiency.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Lifelong Learning</h3>
-          <p>
-            Neural combinatorial optimization solvers that continually adapt to new
-            routing patterns while reducing catastrophic forgetting.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Instance Space Analysis</h3>
-          <p>
-            Analysis of how instance features relate to algorithm performance and
-            where different routing heuristics succeed or fail.
-          </p>
-        </div>
-      </div>
-    </section>
+    <div class="quick-links">
+      <a href="https://scholar.google.com/citations?hl=zh-CN&user=zaLjW3wAAAAJ" target="_blank">Google Scholar</a>
+      <a href="https://ecs.wgtn.ac.nz/Main/GradSainingLiu" target="_blank">University Profile</a>
+      <a href="https://github.com/Itissn" target="_blank">GitHub</a>
+      <a href="cv.html">CV</a>
+    </div>
+  </div>
+</section>
 
     <section>
-      <h2>Selected Projects</h2>
+  <h2>Research Interests</h2>
 
-      <div class="project">
-        <h3>Genetic Programming Guided Local Search for LSVRPs</h3>
-        <p>
-          This project studies how genetic programming can automatically design utility
-          functions for guided local search, aiming to improve the performance of
-          heuristic search on large-scale vehicle routing problems.
-        </p>
-      </div>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Large-Scale Vehicle Routing Problems</h3>
+      <p>
+        Scalable optimization methods for vehicle routing problems with large numbers
+        of customers, complex search spaces, and practical computational constraints.
+      </p>
+    </div>
 
-      <div class="project">
-        <h3>Curriculum Learning for Routing Solvers</h3>
-        <p>
-          This project investigates curriculum learning strategies for improving the
-          training efficiency and robustness of routing solvers by controlling training
-          instance difficulty and diversity.
-        </p>
-      </div>
+    <div class="card">
+      <h3>Automated Algorithm Design</h3>
+      <p>
+        Automatic design and adaptation of heuristic search components for large-scale
+        routing problems, reducing the reliance on manually crafted search rules.
+      </p>
+    </div>
 
-      <div class="project">
-        <h3>Lifelong Learning for Neural Routing Solvers</h3>
-        <p>
-          This project explores how neural solvers can continually learn from newly
-          emerging routing patterns while maintaining previously acquired knowledge.
-        </p>
-      </div>
+    <div class="card">
+      <h3>Genetic Programming Guided Local Search</h3>
+      <p>
+        Genetic programming approaches for evolving utility functions that guide local
+        search using instance, solution, and edge-level features.
+      </p>
+    </div>
 
-      <div class="project">
-        <h3>Instance Space Analysis for Constructive Heuristics</h3>
-        <p>
-          This project uses instance space analysis to understand the relationship
-          between vehicle routing instance features and the performance of constructive
-          heuristics.
-        </p>
-      </div>
-    </section>
+    <div class="card">
+      <h3>Curriculum Learning for GPGLS</h3>
+      <p>
+        Curriculum-based training strategies that improve GPGLS by controlling the
+        order, difficulty, and diversity of training instances.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Instance Space Analysis</h3>
+      <p>
+        Analysis of how vehicle routing instance features relate to constructive
+        heuristic performance and learned search guidance.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Behaviour Niching and Surrogate Assistance</h3>
+      <p>
+        Diversity preservation and surrogate-assisted training methods for improving
+        the robustness and efficiency of GPGLS under expensive fitness evaluations.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section>
+  <h2>Selected Projects</h2>
+
+  <div class="project">
+    <h3>Instance Space Analysis for Large-Scale Vehicle Routing Problems</h3>
+    <p>
+      This project analyses the relationship between instance features and the
+      performance of constructive heuristics for large-scale vehicle routing problems.
+      It provides an instance-space understanding of when and why different
+      constructive heuristics succeed or fail.
+    </p>
+    <p class="project-status">
+      Status: submitted to PPSN.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Genetic Programming Guided Local Search for LSVRPs</h3>
+    <p>
+      This project develops GPGLS, where genetic programming automatically designs
+      utility functions for guided local search using instance, solution, and edge
+      features as terminals.
+    </p>
+    <p class="project-status">
+      Status: published in PPSN.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Curriculum Learning and Adaptive Curriculum Learning in GPGLS</h3>
+    <p>
+      This project studies curriculum-based training strategies for GPGLS. It first
+      applies predefined curriculum learning to GPGLS, and then develops adaptive
+      strategies that use training performance to control curriculum transitions and
+      reduce the number of training generations.
+    </p>
+    <p class="project-status">
+      Status: CL-GPGLS published in CEC; ACL-GPGLS published in EvoStar.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Dynamic Curriculum Learning for GPGLS</h3>
+    <p>
+      This project develops an online dynamic curriculum learning framework for GPGLS.
+      It estimates instance difficulty from observed optimality gaps and uses solver
+      performance feedback to guide curriculum selection under limited computational
+      budgets.
+    </p>
+    <p class="project-status">
+      Status: submitted to PPSN.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Behaviour Niching in GPGLS</h3>
+    <p>
+      This ongoing project investigates behaviour-based niching for GP trees. It studies
+      how behavioural diversity can be maintained during evolution and how smaller trees
+      can be preferred among behaviourally similar individuals to improve robustness and
+      control unnecessary complexity.
+    </p>
+    <p class="project-status">
+      Status: research in progress.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Surrogate-Assisted GPGLS</h3>
+    <p>
+      This planned project studies how surrogate models can reduce expensive GPGLS
+      fitness evaluations and improve training efficiency. The project may involve
+      GP individual characterisation, surrogate-assisted selection, and experimental
+      analysis under limited computational budgets.
+    </p>
+    <p class="project-status">
+      Status: research plan in preparation.
+    </p>
+  </div>
+</section>
 
     <section>
       <h2>Teaching and Professional Experience</h2>
