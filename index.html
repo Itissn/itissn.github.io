@@ -2,73 +2,248 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Senia | Academic Homepage</title>
+  <title>Saining Liu | Academic Homepage</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Senia</h1>
-    <p>Academic Homepage</p>
+    <div class="header-content">
+      <h1>Saining Liu</h1>
+      <p class="subtitle">Senia · PhD Candidate in Computer Science</p>
+      <p class="affiliation">Victoria University of Wellington, New Zealand</p>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="publications.html">Publications</a>
-      <a href="projects.html">Projects</a>
-      <a href="awards.html">Awards</a>
-      <a href="experience.html">Experience</a>
-      <a href="media.html">Slides & Videos</a>
-      <a href="cv.html">CV</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="experience.html">Experience</a>
+        <a href="media.html">Slides & Videos</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I am a PhD candidate in Computer Science at Victoria University of Wellington,
-        New Zealand. My research focuses on learning-based and evolutionary approaches
-        for solving large-scale vehicle routing problems.
-      </p>
+    <section class="hero-section">
+      <div class="hero-text">
+        <h2>About Me</h2>
+        <p>
+          I am a PhD candidate in Computer Science at Victoria University of Wellington,
+          New Zealand. My research focuses on automated algorithm design for large-scale
+          vehicle routing problems, with particular interests in evolutionary computation,
+          genetic programming, guided local search, curriculum learning, and lifelong
+          learning for neural combinatorial optimization solvers.
+        </p>
+
+        <p>
+          My work aims to develop adaptive and learning-based optimization methods that
+          improve the efficiency, scalability, and generalization ability of routing
+          solvers under complex and dynamically changing problem settings.
+        </p>
+
+        <div class="quick-links">
+          <a href="https://scholar.google.com/citations?hl=zh-CN&user=zaLjW3wAAAAJ" target="_blank">Google Scholar</a>
+          <a href="https://ecs.wgtn.ac.nz/Main/GradSainingLiu" target="_blank">University Profile</a>
+          <a href="https://github.com/Itissn" target="_blank">GitHub</a>
+          <a href="cv.html">CV</a>
+        </div>
+      </div>
     </section>
 
     <section>
       <h2>Research Interests</h2>
-      <ul>
-        <li>Large-scale vehicle routing problems</li>
-        <li>Genetic programming guided local search</li>
-        <li>Curriculum learning for combinatorial optimization</li>
-        <li>Lifelong learning for neural routing solvers</li>
-        <li>Instance space analysis</li>
-      </ul>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>Large-Scale Vehicle Routing Problems</h3>
+          <p>
+            Scalable optimization methods for routing problems involving large numbers
+            of customers, complex constraints, and challenging search spaces.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Automated Algorithm Design</h3>
+          <p>
+            Automatic design and adaptation of algorithmic components based on
+            problem-solving experience and search feedback.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Genetic Programming Guided Local Search</h3>
+          <p>
+            Genetic programming methods for evolving utility functions that guide
+            local search for large-scale vehicle routing problems.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Curriculum Learning</h3>
+          <p>
+            Training strategies that control the order, difficulty, and diversity of
+            routing instances to improve solver learning efficiency.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Lifelong Learning</h3>
+          <p>
+            Neural combinatorial optimization solvers that continually adapt to new
+            routing patterns while reducing catastrophic forgetting.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Instance Space Analysis</h3>
+          <p>
+            Analysis of how instance features relate to algorithm performance and
+            where different routing heuristics succeed or fail.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section>
       <h2>Selected Projects</h2>
 
-      <h3>GPGLS for Large-Scale Vehicle Routing Problems</h3>
-      <p>
-        This project studies genetic programming-guided local search for automatically
-        designing utility functions for large-scale vehicle routing problems.
-      </p>
+      <div class="project">
+        <h3>Genetic Programming Guided Local Search for LSVRPs</h3>
+        <p>
+          This project studies how genetic programming can automatically design utility
+          functions for guided local search, aiming to improve the performance of
+          heuristic search on large-scale vehicle routing problems.
+        </p>
+      </div>
 
-      <h3>Lifelong Learning for Neural Routing Solvers</h3>
-      <p>
-        This project investigates how neural solvers can continually adapt to newly
-        emerging routing patterns while mitigating catastrophic forgetting.
-      </p>
+      <div class="project">
+        <h3>Curriculum Learning for Routing Solvers</h3>
+        <p>
+          This project investigates curriculum learning strategies for improving the
+          training efficiency and robustness of routing solvers by controlling training
+          instance difficulty and diversity.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Lifelong Learning for Neural Routing Solvers</h3>
+        <p>
+          This project explores how neural solvers can continually learn from newly
+          emerging routing patterns while maintaining previously acquired knowledge.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Instance Space Analysis for Constructive Heuristics</h3>
+        <p>
+          This project uses instance space analysis to understand the relationship
+          between vehicle routing instance features and the performance of constructive
+          heuristics.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Teaching and Professional Experience</h2>
+
+      <div class="timeline-item">
+        <h3>Tutor / Marker / Lab Support</h3>
+        <p><strong>Victoria University of Wellington</strong>, 2024 – Present</p>
+        <p>
+          Supported teaching and assessment activities, including tutorials, lab sessions,
+          marking, and exam-related duties for computer science courses.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Test Engineer</h3>
+        <p><strong>Risconda Technology Development Co., Ltd.</strong>, 2015 – 2018</p>
+        <p>
+          Supported structured testing, project delivery, technical documentation,
+          and quality checking tasks in telecommunications-related projects.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>AI-Related Project Intern</h3>
+        <p><strong>Beijing Xipu Sunshine Education Technology Co., Ltd.</strong>, 2021</p>
+        <p>
+          Supported research, development, and documentation for AI-related courses
+          and projects, including technical research and content organisation.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Awards and Honours</h2>
+
+      <ul class="award-list">
+        <li>Outstanding Paper Award, CCF IoT Professional Committee, 2021</li>
+        <li>Second Class Academic Scholarship, Heilongjiang University, 2020 and 2021</li>
+        <li>Outstanding Graduate, Institute of Disaster Prevention Technology, 2015</li>
+        <li>National Inspirational Scholarship, Institute of Disaster Prevention Technology, 2014</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+
+      <div class="skill-groups">
+        <div>
+          <h3>Programming and Tools</h3>
+          <ul>
+            <li>Python</li>
+            <li>PyCharm</li>
+            <li>Jupyter Notebook / JupyterLab</li>
+            <li>Microsoft Excel, Word, and PowerPoint</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Research and Analysis</h3>
+          <ul>
+            <li>Experimental design and result analysis</li>
+            <li>Algorithm evaluation and comparison</li>
+            <li>Reproducible research workflows</li>
+            <li>Technical documentation and reporting</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Professional Strengths</h3>
+          <ul>
+            <li>Detail-oriented and methodical working style</li>
+            <li>Clear written communication</li>
+            <li>Independent work and team collaboration</li>
+            <li>Careful record checking and process following</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section>
       <h2>Contact</h2>
-      <p>Email: your.email@example.com</p>
+      <p>
+        Email: <a href="mailto:saining.liu@vuw.ac.nz">saining.liu@vuw.ac.nz</a>
+      </p>
+      <p>
+        Location: Wellington, New Zealand
+      </p>
+      <p>
+        Links:
+        <a href="https://scholar.google.com/citations?hl=zh-CN&user=zaLjW3wAAAAJ" target="_blank">Google Scholar</a> |
+        <a href="https://ecs.wgtn.ac.nz/Main/GradSainingLiu" target="_blank">University Profile</a> |
+        <a href="https://github.com/Itissn" target="_blank">GitHub</a>
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Senia</p>
+    <p>© 2026 Saining Liu</p>
   </footer>
 </body>
 </html>
