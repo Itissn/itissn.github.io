@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Research | Saining Liu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Saining Liu</h1>
+      <p class="subtitle">Senia · PhD Candidate in Computer Science</p>
+      <p class="affiliation">Victoria University of Wellington, New Zealand</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+        <a href="experience.html">Experience</a>
+        <a href="media.html">Slides & Videos</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Research Overview</h2>
+      <p>
+        My research focuses on automated algorithm design for large-scale vehicle
+        routing problems. In particular, I study how evolutionary computation,
+        genetic programming, guided local search, curriculum learning, behaviour
+        niching, and surrogate-assisted evolutionary computation can improve the
+        scalability and robustness of routing solvers.
+      </p>
+
+      <p>
+        The central goal of my PhD research is to develop learning-based and
+        evolutionary methods that can automatically design, adapt, and improve
+        heuristic search strategies for large-scale vehicle routing problems.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Themes</h2>
+
+      <div class="project">
+        <h3>Large-Scale Vehicle Routing Problems</h3>
+        <p>
+          Vehicle routing problems become particularly challenging at large scales,
+          where the number of customers, the size of the search space, and practical
+          computational limits make efficient heuristic search essential.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Instance Space Analysis</h3>
+        <p>
+          I use instance space analysis to study the relationship between vehicle
+          routing instance features and constructive heuristic performance. This helps
+          identify where different heuristics succeed or fail and provides a foundation
+          for understanding learned search guidance.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Genetic Programming Guided Local Search</h3>
+        <p>
+          I study genetic programming guided local search, where genetic programming
+          automatically designs utility functions for guided local search. These
+          utility functions can use instance, solution, and edge-level features to
+          guide the search process.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Curriculum Learning for GPGLS</h3>
+        <p>
+          I investigate curriculum learning strategies for GPGLS, including predefined
+          curriculum learning and adaptive curriculum learning. These methods aim to
+          improve training efficiency by controlling the order and difficulty of
+          training instances.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Dynamic Curriculum Learning</h3>
+        <p>
+          I develop dynamic curriculum learning methods that estimate instance
+          difficulty online from solver feedback, such as observed optimality gaps.
+          This allows the curriculum process to adapt to the evolving competence of
+          the solver during training.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Behaviour Niching</h3>
+        <p>
+          I study behaviour-based niching for genetic programming in GPGLS. This line
+          of work investigates how behavioural diversity among GP trees can be
+          maintained during evolution and how unnecessary tree complexity can be
+          controlled.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Surrogate-Assisted GPGLS</h3>
+        <p>
+          I am also exploring surrogate-assisted GPGLS, where surrogate models are
+          used to reduce expensive fitness evaluations and improve the efficiency of
+          GP-based solver training.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Research Direction</h2>
+      <p>
+        Overall, my work aims to advance GPGLS for large-scale vehicle routing
+        problems through instance-space understanding, GP-based search guidance,
+        curriculum learning, dynamic curriculum learning, behaviour niching, and
+        surrogate-assisted training.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Saining Liu</p>
+  </footer>
+</body>
+</html>
