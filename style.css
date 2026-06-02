@@ -208,6 +208,50 @@ footer {
     font-size: 34px;
   }
 
+  .media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.media-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+
+.media-card h3 {
+  margin-top: 0;
+}
+
+.media-status {
+  font-size: 14px;
+  color: #4b5563;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.demo-placeholder {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 45px 20px;
+  text-align: center;
+  background: #eef2ff;
+  border: 2px dashed #93c5fd;
+  border-radius: 10px;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+/* Responsive layout for media cards */
+@media (max-width: 800px) {
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
   h2 {
     font-size: 24px;
   }
