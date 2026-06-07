@@ -252,7 +252,26 @@ footer {
   }
 }
 
-  h2 {
-    font-size: 24px;
-  }
+h2 {
+  font-size: 24px;
+}
+.publication {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 22px;
+}
+
+.publication h3 {
+  margin-top: 0;
+}
+
+.publication-links a {
+  display: inline-block;
+  margin-right: 12px;
+  font-weight: 600;
+}
+  
 }
